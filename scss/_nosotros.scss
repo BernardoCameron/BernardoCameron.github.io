@@ -1,0 +1,41 @@
+.nosotrosMain {
+    display: flex;
+    justify-content: center;
+    .textoNosotros {
+        width: 400px;
+        height: 500px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .fotoNosotros {
+        width: 600px;
+        height: 700px;
+        margin-top: 20px;
+        img {
+            width: 600px;
+            height: 500px;
+            margin-right: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .nosotrosMain {
+        display: block;
+        max-width: 400px;
+        .textoNosotros {
+            margin-top: 5px;
+            margin: auto;
+        }
+        .fotoNosotros {
+            margin-top: 10px;
+            width: 400px;
+            height: 400px;
+            margin: auto;
+            img {
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+}
